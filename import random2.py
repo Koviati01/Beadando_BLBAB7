@@ -1,6 +1,6 @@
 import random
 
-def generate_random_list(length=10, start=1, end=100):
+def generate_random_list(length=20, start=1, end=100):
     random_list = [random.randint(start, end) for _ in range(length)]
     return random_list
 
